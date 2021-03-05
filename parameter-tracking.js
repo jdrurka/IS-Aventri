@@ -1,5 +1,3 @@
-console.log('AVENTRI [DEBUG]: Code successfully devilvered via CDN.');
-
 var $ = jQuery.noConflict();
 
 document.cookie = 'test_acode=0000'; /* For testing - remove later */
@@ -49,8 +47,6 @@ $(document).ready(function(){
 			console.log('New URL: ' + newUrl);
 
 		btn[0].href = newUrl;
-
-        console.log('TESTING');
 
 		console.groupEnd();
 		index++;
