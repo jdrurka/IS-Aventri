@@ -1,3 +1,5 @@
+console.log('AVENTRI [DEBUG]: Code successfully devilvered via CDN.');
+
 var $ = jQuery.noConflict();
 
 document.cookie = 'test_acode=0000'; /* For testing - remove later */
