@@ -50,6 +50,8 @@ $(document).ready(function(){
 
 		btn[0].href = newUrl;
 
+        console.log('TESTING');
+
 		console.groupEnd();
 		index++;
 
